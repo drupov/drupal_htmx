@@ -1,0 +1,5 @@
+name: HTML
+description: Demonstrates dynamic content loading with HTMX in Drupal, offering seamless AJAX integration.
+package: Custom
+type: module
+core_version_requirement: ^10

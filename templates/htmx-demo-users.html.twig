@@ -1,0 +1,14 @@
+{% if users %}
+  {% for user in users %}
+    {% set fullName %}
+      {{ user.firstName }} {{ user.lastName }}
+    {% endset %}
+
+    <div>
+      <h2>{{ fullName }}</h2>
+      <img src="{{ user.image }}" alt="Profile picture of {{ fullName }}">
+    </div>
+  {% endfor %}
+{% else %}
+  {{ 'No users found.'|t }}
+{% endif %}

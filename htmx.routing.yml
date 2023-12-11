@@ -1,0 +1,14 @@
+htmx.demo:
+  path: '/htmx-demo'
+  defaults:
+    _controller: '\Drupal\htmx\Controller\HTMX::demo'
+    _title: 'HTMX AJAX Demo'
+  requirements:
+    _permission: 'access content'
+htmx.demo_response:
+  path: '/htmx-demo-response'
+  defaults:
+    _controller: '\Drupal\htmx\Controller\HTMX::userData'
+    _title: 'HTMX AJAX User Data'
+  requirements:
+    _permission: 'access content'

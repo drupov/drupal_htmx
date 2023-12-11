@@ -1,0 +1,4 @@
+htmx:
+  version: latest
+  js:
+    https://unpkg.com/htmx.org@latest: { type: external, minified: true }
